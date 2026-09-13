@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Skills — Hijab Ahmad</title>
+  <meta name="description" content="Technical skills across cybersecurity, AI/ML, software engineering, and tooling.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600;700;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="wrap">
+      <a href="index.html" class="brand">Hijab <span>Ahmad</span></a>
+      <nav aria-label="Primary">
+        <ul class="nav-list" id="primary-nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="skills.html" aria-current="page">Skills</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <button class="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="primary-nav">
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section style="padding-bottom:0;">
+      <div class="wrap">
+        <p class="hero-eyebrow">Skills</p>
+        <h1 style="max-width:16ch;">What I actually know, grouped honestly.</h1>
+        <p class="lede" style="margin-top:18px;">Some of this is solid, some is actively in progress — the AI/ML section especially. Click a group to expand it.</p>
+      </div>
+    </section>
+
+    <section>
+      <div class="wrap" style="max-width:840px;">
+
+        <div class="accordion-item">
+          <button class="accordion-trigger" aria-expanded="true" aria-controls="panel-security">
+            <h3>Cybersecurity Foundations</h3>
+            <span class="icon"></span>
+          </button>
+          <div class="accordion-panel" id="panel-security" style="max-height:260px;">
+            <div class="accordion-panel-inner">
+              <p>Hands-on lab and coursework experience — this is where I started, and it's still my differentiator going into AI/ML.</p>
+              <ul class="skill-tags">
+                <li>OWASP Juice Shop</li>
+                <li>STRIDE Threat Modelling</li>
+                <li>DFIR &amp; SSH Log Analysis</li>
+                <li>DVWA Labs</li>
+                <li>Buffer Overflow Exploitation</li>
+                <li>JWT / RBAC</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <button class="accordion-trigger" aria-expanded="false" aria-controls="panel-aiml">
+            <h3>AI / Machine Learning — in progress</h3>
+            <span class="icon"></span>
+          </button>
+          <div class="accordion-panel" id="panel-aiml">
+            <div class="accordion-panel-inner">
+              <p>Working through a self-built 26-week roadmap. Comfortable with the basics, building toward the rest.</p>
+              <ul class="skill-tags">
+                <li>Python</li>
+                <li>CS50P</li>
+                <li>Data Structures &amp; Algorithms</li>
+                <li>ML Fundamentals</li>
+                <li>Reinforcement Learning (learning)</li>
+                <li>Computer Vision (learning)</li>
+                <li>NLP (learning)</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <button class="accordion-trigger" aria-expanded="false" aria-controls="panel-swe">
+            <h3>Software Engineering</h3>
+            <span class="icon"></span>
+          </button>
+          <div class="accordion-panel" id="panel-swe">
+            <div class="accordion-panel-inner">
+              <p>What I use to actually ship things, from small scripts to full apps.</p>
+              <ul class="skill-tags">
+                <li>Python (OOP)</li>
+                <li>JavaScript</li>
+                <li>IndexedDB</li>
+                <li>PWA Development</li>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>Git &amp; GitHub</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <button class="accordion-trigger" aria-expanded="false" aria-controls="panel-tools">
+            <h3>Tools &amp; Platforms</h3>
+            <span class="icon"></span>
+          </button>
+          <div class="accordion-panel" id="panel-tools">
+            <div class="accordion-panel-inner">
+              <p>The wider stack I work with day to day.</p>
+              <ul class="skill-tags">
+                <li>Linux</li>
+                <li>AWS</li>
+                <li>Docker</li>
+                <li>MongoDB</li>
+                <li>Oracle</li>
+                <li>C / C++</li>
+                <li>LaTeX</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="cta-band">
+      <div class="wrap">
+        <div>
+          <h2>See it put together</h2>
+          <p>These skills, applied — take a look at the projects.</p>
+        </div>
+        <a href="projects.html" class="btn btn-primary">View projects</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <div>
+        <h3>Hijab Ahmad</h3>
+        <p style="color:#C9B7F2; max-width:36ch;">BSCS student at PUCIT, building toward AI/ML with a cybersecurity foundation.</p>
+      </div>
+      <nav aria-label="Footer">
+        <ul class="footer-links">
+          <li><a href="https://github.com/hijabahmad-coder" target="_blank" rel="noopener">GitHub</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </nav>
+    </div>
+    <p class="footer-bottom">&copy; <span id="current-year"></span> Hijab Ahmad. Built with HTML, CSS &amp; JavaScript.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
