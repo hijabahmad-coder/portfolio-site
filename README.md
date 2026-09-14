@@ -1,56 +1,64 @@
-# Hijab Ahmad — Portfolio Website
+# Portfolio Site
 
-Assignment 01 — Web Technologies (BS CS F24, Faculty of Information and Technology).
-A fully static, multi-page personal portfolio built with plain HTML, CSS, and JavaScript — no backend, no framework.
+My personal portfolio website, built from scratch with HTML, CSS, and JavaScript.
 
-## Pages
+## 🔗 Live Demo
 
-| Page | File | Purpose |
-|---|---|---|
-| Home | `index.html` | Hero intro, highlights, featured projects |
-| About | `about.html` | Bio and a timeline of my journey |
-| Projects | `projects.html` | Filterable project grid (All / AI-ML / Security / Web) |
-| Skills | `skills.html` | Accordion of skill groups |
-| Contact | `contact.html` | Validated contact form + location map |
+https://hijabahmad-coder.github.io/portfolio-site/
 
-## Tech
+## ✨ Features
 
-- **HTML5** — semantic tags (`header`, `nav`, `main`, `section`, `article`, `footer`)
-- **CSS3** — one external stylesheet (`css/styles.css`), CSS Grid + Flexbox, responsive via media queries
-- **JavaScript** — `js/script.js`, no libraries:
-  - Hamburger menu for mobile nav
-  - Client-side contact form validation (name / email / message)
-  - Project filter by category
-  - Accordion on the Skills page
+- Responsive design that works on desktop, tablet, and mobile
+- Separate pages for Home, About, Projects, Skills, and Contact
+- Filterable project grid
+- Contact form with validation
+- Interactive navigation, powered by vanilla JS
 
-## Folder structure
+## 🛠️ Built With
+
+- HTML5
+- CSS3
+- JavaScript (vanilla)
+
+## 📁 Project Structure
 
 ```
 portfolio-site/
-├── index.html
-├── about.html
-├── projects.html
-├── skills.html
-├── contact.html
+├── index.html          # Home page
+├── about.html          # About me
+├── projects.html       # Projects showcase
+├── skills.html         # Skills overview
+├── contact.html        # Contact page
 ├── css/
-│   └── styles.css
+│   ├── style.css          # Stylesheets
 ├── js/
-│   └── script.js
-└── images/
+│   ├── nav.js              # Navigation behavior
+│   ├── form-validation.js  # Contact form validation
+│   ├── project-filter.js   # Filterable project grid
+│   └── script.js           # Shared/general interactivity
+└── images/             # Images and assets
 ```
 
-## Running it
+## 🚀 Getting Started
 
-No build step — open `index.html` in a browser, or serve the folder with any static server.
+Clone the repo and open `index.html` in your browser — no build step required.
 
-## Before submitting
+```bash
+git clone https://github.com/hijabahmad-coder/portfolio-site.git
+cd portfolio-site
+```
 
-- [ ] Replace the placeholder email in `contact.html` with a real one
-- [ ] Swap in real GitHub repo links on `projects.html` where the URL currently points to the profile
-- [ ] Push to GitHub with the feature branches below merged into `main`
+Then just open `index.html` directly, or serve it locally:
 
-## Branch history
+```bash
+# using VS Code Live Server extension, or
+npx serve .
+```
 
-- `feature-markup` — HTML structure for all 5 pages
-- `feature-styles` — stylesheet, layout, responsive rules
-- `feature-interactivity` — nav toggle, form validation, filter, accordion
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+## 📬 Contact
+
+Feel free to reach out via GitHub if you have questions or feedback.
